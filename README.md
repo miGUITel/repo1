@@ -1,3 +1,3 @@
 # Hola a todos
 
-Ya está conecata
+Ya está conectada
