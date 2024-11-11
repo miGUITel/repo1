@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #arriba {
+            width: 100px;
+            height: 30px;
+            background-color: rgb(237,180,94 );
+            position: static;
+            text-align: center;
+            margin-bottom: 0;
+        }
+
+        #queso {
+            width: 100px;
+            height: 30px;
+            background-color: yellow;
+            position: relative;
+            left: 30px;
+            text-align: center;
+            margin-top: 0;
+        }
+
+        #cuchillo {
+            width: 100px;
+            height: 30px;
+            background-color: rgb(153, 223, 229);
+            position: absolute;
+            left: 150px;
+            top: 50px;
+            text-align: center;
+        }
+
+        #abajo {
+            width: 100px;
+            height: 30px;
+            background-color: rgb(237,180,94 );
+            position: fixed;
+            top: 60px;
+            text-align: center;
+            
+        }
+
+        #plato {
+            width: 100px;
+            height: 100px;
+            background-color: purple;
+            position: sticky;
+            top: 10px;
+            /* top: 400px; */
+            /* modifica el top a 400 para destacar el funcionamiento */
+            text-align: center;
+            line-height: 100px;
+        }
+        /*padding: 80px 10px 80px 10px*/
+    </style>
+
+</head>
+
+<body>
+    <p id="arriba">Pan</p>
+    <p id="queso">Queso</p>
+    <p id="abajo">Pan</p>
+    <p id="cuchillo">Cuchillo</p>
+    <p id="plato">Plato</p>
+</body>
+
+</html>
