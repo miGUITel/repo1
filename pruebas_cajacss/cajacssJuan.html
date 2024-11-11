@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        #arriba {
+        #arribaStatic {
             width: 100px;
             height: 30px;
             background-color: rgb(237,180,94 );
@@ -15,7 +15,7 @@
             margin-bottom: 0;
         }
 
-        #queso {
+        #quesoRelative {
             width: 100px;
             height: 30px;
             background-color: yellow;
@@ -23,9 +23,11 @@
             left: 30px;
             text-align: center;
             margin-top: 0;
+            padding: 0px 0px 0px 0px;
+            z-index: 1;
         }
 
-        #cuchillo {
+        #cuchilloAbsolute {
             width: 100px;
             height: 30px;
             background-color: rgb(153, 223, 229);
@@ -35,38 +37,97 @@
             text-align: center;
         }
 
-        #abajo {
-            width: 100px;
-            height: 30px;
-            background-color: rgb(237,180,94 );
-            position: fixed;
-            top: 60px;
-            text-align: center;
-            
-        }
-
-        #plato {
+        #platoFixed {
             width: 100px;
             height: 100px;
+            top: 50px;
             background-color: purple;
-            position: sticky;
-            top: 10px;
-            /* top: 400px; */
-            /* modifica el top a 400 para destacar el funcionamiento */
+            position: fixed;
+            /*
+            position: fixed;
+            left: 300px;
+            top: 100px;*/
             text-align: center;
             line-height: 100px;
         }
+
+        #abajoSticky {
+            width: 100px;
+            height: 30px;
+            background-color: rgb(237,180,94 );
+            position: sticky;
+            top: 60px;
+            text-align: center;
+            padding: 0px 0px 0px 0px;
+        }
+
         /*padding: 80px 10px 80px 10px*/
     </style>
 
 </head>
 
 <body>
-    <p id="arriba">Pan</p>
-    <p id="queso">Queso</p>
-    <p id="abajo">Pan</p>
-    <p id="cuchillo">Cuchillo</p>
-    <p id="plato">Plato</p>
+    <p id="arribaStatic">Pan</p>
+    <p id="quesoRelative">Queso</p>
+    <p id="cuchilloAbsolute">Cuchillo</p>
+    <p id="platoFixed">Plato</p>
+    <p id="abajoSticky">Pan</p>
+    <p>MESA</p>
+    <p>MESA</p>
+    <p>MESA</p>
+    <p>AIRE</p>
+    <p>AIRE</p>
+    <p>AIRE</p>
+    <p>AIRE</p>
+    <p>AIRE</p>
+    <p>AIRE</p>
+    <p>AIRE</p>
+    <p>AIRE</p>
+    <p>AIRE</p>
+    <p>AIRE</p>
+    <p>AIRE</p>
+    <p>AIRE</p>
+    <p>AIRE</p>
+    <p>AIRE</p>
+    <p>AIRE</p>
+    <p>AIRE</p>
+    <p>AIRE</p>
+    <p>AIRE</p>
+    <p>AIRE</p>
+    <p>AIRE</p>
+    <p>AIRE</p>
+    <p>AIRE</p>
+    <p>AIRE</p>
+    <p>AIRE</p>
+    <p>AIRE</p>
+    <p>AIRE</p>
+    <p>AIRE</p>
+    <p>SUELO</p>
+    <p>SUELO</p>
+    <p>SUELO</p>
+    <p>SUELO</p>
+    <p>SUELO</p>
+    <p>SUELO</p>
+    <p>SUELO</p>
+    <p>SUELO</p>
+    <p>SUELO</p>
+    <p>SUELO</p>
+    <p>SUELO</p>
+    <p>SUELO</p>
+    <p>SUELO</p>
+    <p>SUELO</p>
+    <p>SUELO</p>
+    <p>SUELO</p>
+    <p>SUELO</p>
+    <p>SUELO</p>
+    <p>SUELO</p>
+    <p>SUELO</p>
+    <p>SUELO</p>
+    <p>SUELO</p>
+    <p>SUELO</p>
+    <p>SUELO</p>
+    <p>SUELO</p>
+    <p>SUELO</p>
 </body>
 
 </html>
